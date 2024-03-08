@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.logo {
+  padding: 12px 8px;
+  display: flex;
+  justify-content: left;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.logo img {
+  width: 60%;
+  height: auto;
+}
+.navbar-item {
+  text-align: left;
+  padding: 10px;
+  font-size: 17px;
+  display: flex;
+}
+
+.navbar-item-icon img {
+  width: 65%;
+  height: auto;
+}
+.navbar-item-text {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
+}
