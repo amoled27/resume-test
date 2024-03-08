@@ -65,3 +65,50 @@
   overflow: hidden;
   cursor: pointer;
 }
+
+.main-content {
+  padding: 40px 100px;
+}
+
+.account-banner {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  background: #008b5d;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.premium-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.premium-logo {
+  padding: 10px;
+}
+
+.logo-center {
+  padding: 7px;
+  background: #fff;
+  border-radius: 50%;
+  display: block;
+}
+
+.banner-text {
+  padding: 0 15px;
+  text-align: left;
+}
+
+.banner-main-text {
+  font-size: 27px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.banner-sub-text {
+  font-size: 19px;
+  line-height: 26px;
+  margin-top: 5px;
+}
