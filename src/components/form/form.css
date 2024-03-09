@@ -1,0 +1,57 @@
+.grid-container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90px;
+}
+
+.grid-full {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 90px;
+}
+
+.parent-grid-container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.img {
+  width: 90%;
+  height: auto;
+}
+
+.btn-container {
+  margin: 20px 10px;
+  margin-bottom: 0;
+}
+
+.form-text {
+  margin: 10px;
+  text-align: left;
+  font-size: 19px;
+}
+
+.form-title {
+  text-align: left;
+  font-size: 30px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.personal-form {
+  margin: 45px 0 0 0;
+}
+
+.feedbk {
+  margin: 0;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 17px;
+}
+.len {
+  width: 109%;
+}
